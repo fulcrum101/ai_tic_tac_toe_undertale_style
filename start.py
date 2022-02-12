@@ -22,7 +22,7 @@ def Greetings():
     mixer.init()
     mixer.music.load("audio/intro.mp3")
     mixer.music.set_volume(0.7)
-    mixer.music.play()
+    mixer.music.play(-1)
     print('\n\n')
 
     PrintText('Hello, little human....\n')
