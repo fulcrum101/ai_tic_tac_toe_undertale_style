@@ -6,8 +6,8 @@ import time
 
 def main():
     name, char = Greetings()
-    p1 = Player(name, char == 'O', False)
-    p2 = Player('Junshi', char != 'O', True) # Junshi Daimyojin - japanese god of provocation.
+    p1 = Player(name, char != 'O', False)
+    p2 = Player('Junshi', char == 'O', True) # Junshi Daimyojin - japanese god of provocation.
 
     cont = True
     mixer.init()
